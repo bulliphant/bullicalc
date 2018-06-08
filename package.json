@@ -1,0 +1,23 @@
+{
+  "name": "bullicalc",
+  "version": "1.0.0",
+  "description": "Just a calculator...",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bulliphant/bullicalc.git"
+  },
+  "author": "Yellow Elephant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bulliphant/bullicalc/issues"
+  },
+  "homepage": "https://github.com/bulliphant/bullicalc#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
