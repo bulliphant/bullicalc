@@ -91,6 +91,9 @@ TODO:
         request.addEventListener('load', function () {
           if (this.readyState == 4 && this.status == 200) {
             resultNum = this.response.result;
+            if (resultNum === null) {
+              resultNum = 1 / 0;
+            }
             // If NaN or Infinity returned
             if (!isFinite(resultNum)) {
               if (isNaN(resultNum)) { // If result is not a number; set off by, eg, double-clicking operators
